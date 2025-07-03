@@ -1,0 +1,475 @@
+2025-06-26 09:52:00.517 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-06-26 09:52:00.518 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-06-26 09:52:00.519 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-06-26 09:52:19.443 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-06-26 09:52:19.465 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-06-26 09:52:19.466 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-06-26 09:52:19.468 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-06-26 09:53:00.794 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-06-26 09:53:04.369 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-06-26 09:53:04.370 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-06-26 09:53:04.371 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-06-26 09:55:05.844 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-06-26 09:55:05.913 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-06-26 09:55:05.914 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-06-26 09:55:05.914 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-06-26 10:01:06.510 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-06-26 10:01:06.555 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-06-26 10:01:06.555 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-06-26 10:01:06.556 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-06-26 10:01:34.287 - |INFO| - [rest_connector.py] - rest_connector - __call__ - 605 - CONVERTER CONFIG: {'type': 'json', 'deviceInfo': {'deviceNameExpressionSource': 'request', 'deviceNameExpression': '${sensorName}', 'deviceProfileExpressionSource': 'request', 'deviceProfileExpression': '${sensorType}'}, 'attributes': [{'type': 'string', 'key': 'model', 'value': '${sensorModel}'}, {'type': 'string', 'key': 'certificateNumber', 'value': '${certificateNumber}'}], 'timeseries': [{'type': 'double', 'key': 'temperature', 'value': '${temp}'}, {'type': 'double', 'key': 'humidity', 'value': '${hum}'}]}
+2025-06-26 10:01:34.287 - |INFO| - [rest_connector.py] - rest_connector - __call__ - 605 - CONVERTER CONFIG: {'type': 'json', 'deviceInfo': {'deviceNameExpressionSource': 'request', 'deviceNameExpression': '${sensorName}', 'deviceProfileExpressionSource': 'request', 'deviceProfileExpression': '${sensorType}'}, 'attributes': [{'type': 'string', 'key': 'model', 'value': '${sensorModel}'}, {'type': 'string', 'key': 'certificateNumber', 'value': '${certificateNumber}'}], 'timeseries': [{'type': 'double', 'key': 'temperature', 'value': '${temp}'}, {'type': 'double', 'key': 'humidity', 'value': '${hum}'}]}
+2025-06-26 10:01:34.287 - |INFO| - [rest_connector.py] - rest_connector - __call__ - 605 - CONVERTER CONFIG: {'type': 'json', 'deviceInfo': {'deviceNameExpressionSource': 'request', 'deviceNameExpression': '${sensorName}', 'deviceProfileExpressionSource': 'request', 'deviceProfileExpression': '${sensorType}'}, 'attributes': [{'type': 'string', 'key': 'model', 'value': '${sensorModel}'}, {'type': 'string', 'key': 'certificateNumber', 'value': '${certificateNumber}'}], 'timeseries': [{'type': 'double', 'key': 'temperature', 'value': '${temp}'}, {'type': 'double', 'key': 'humidity', 'value': '${hum}'}]}
+2025-06-26 10:01:34.304 - |INFO| - [json_rest_uplink_converter.py] - json_rest_uplink_converter - convert - 132 - Converted data: ConvertedData(deviceName=1, deviceType=2, telemetry=[], attributes=Attributes(values={}), metadata={})
+2025-06-26 10:01:34.304 - |INFO| - [json_rest_uplink_converter.py] - json_rest_uplink_converter - convert - 132 - Converted data: ConvertedData(deviceName=1, deviceType=2, telemetry=[], attributes=Attributes(values={}), metadata={})
+2025-06-26 10:01:34.304 - |INFO| - [json_rest_uplink_converter.py] - json_rest_uplink_converter - convert - 132 - Converted data: ConvertedData(deviceName=1, deviceType=2, telemetry=[], attributes=Attributes(values={}), metadata={})
+2025-06-26 10:04:06.962 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-06-26 10:04:07.029 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-06-26 10:04:07.030 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-06-26 10:04:07.030 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-06-26 10:07:07.168 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-06-26 10:07:07.227 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-06-26 10:07:07.227 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-06-26 10:07:07.228 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-06-26 10:07:24.692 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-06-26 10:07:28.627 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-06-26 10:07:28.627 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-06-26 10:07:28.628 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-06-26 10:07:44.865 - |INFO| - [rest_connector.py] - rest_connector - __call__ - 605 - CONVERTER CONFIG: {'type': 'json', 'deviceInfo': {'deviceNameExpressionSource': 'request', 'deviceNameExpression': '${sensorName}', 'deviceProfileExpressionSource': 'request', 'deviceProfileExpression': '${sensorType}'}, 'attributes': [], 'timeseries': [{'type': 'double', 'key': 'temperature', 'value': '${temp}'}, {'type': 'double', 'key': 'humidity', 'value': '${hum}'}]}
+2025-06-26 10:07:44.866 - |INFO| - [json_rest_uplink_converter.py] - json_rest_uplink_converter - convert - 132 - Converted data: ConvertedData(deviceName=watch1, deviceType=watch, telemetry=[TelemetryEntry(ts=1750903664866, metadata={}, values={DatapointKey(key=temperature, report_strategy=None): '2.1', DatapointKey(key=humidity, report_strategy=None): '1.1'})], attributes=Attributes(values={}), metadata={})
+2025-06-26 10:17:22.456 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-06-26 10:17:25.822 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 113 - Waiting for ThingsBoard client to be initialized...
+2025-06-26 10:17:26.824 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-06-26 10:17:26.825 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-06-26 10:17:26.826 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-06-26 10:19:26.689 - |INFO| - [rest_connector.py] - rest_connector - __call__ - 605 - CONVERTER CONFIG: {'type': 'json', 'deviceInfo': {'deviceNameExpressionSource': 'request', 'deviceNameExpression': '${sensorName}', 'deviceProfileExpressionSource': 'request', 'deviceProfileExpression': '${sensorType}'}, 'attributes': [{'type': 'string', 'key': 'model', 'value': '${sensorModel}'}, {'type': 'string', 'key': '${sensorModel}', 'value': 'on'}], 'timeseries': [{'type': 'double', 'key': 'temperature', 'value': '${temp}'}, {'type': 'double', 'key': 'humidity', 'value': '${hum}'}]}
+2025-06-26 10:19:26.694 - |INFO| - [json_rest_uplink_converter.py] - json_rest_uplink_converter - convert - 132 - Converted data: ConvertedData(deviceName=watch1, deviceType=watch, telemetry=[TelemetryEntry(ts=1750904366694, metadata={}, values={DatapointKey(key=temperature, report_strategy=None): '2.1', DatapointKey(key=humidity, report_strategy=None): '1.1'})], attributes=Attributes(values={}), metadata={})
+2025-06-26 10:19:35.835 - |INFO| - [rest_connector.py] - rest_connector - __call__ - 605 - CONVERTER CONFIG: {'type': 'json', 'deviceInfo': {'deviceNameExpressionSource': 'request', 'deviceNameExpression': '${sensorName}', 'deviceProfileExpressionSource': 'request', 'deviceProfileExpression': '${sensorType}'}, 'attributes': [{'type': 'string', 'key': 'model', 'value': '${sensorModel}'}, {'type': 'string', 'key': '${sensorModel}', 'value': 'on'}], 'timeseries': [{'type': 'double', 'key': 'temperature', 'value': '${temp}'}, {'type': 'double', 'key': 'humidity', 'value': '${hum}'}], 'reportStrategy': None}
+2025-06-26 10:19:35.836 - |INFO| - [json_rest_uplink_converter.py] - json_rest_uplink_converter - convert - 132 - Converted data: ConvertedData(deviceName=watch2, deviceType=watch, telemetry=[TelemetryEntry(ts=1750904375836, metadata={}, values={DatapointKey(key=temperature, report_strategy=None): '2.1', DatapointKey(key=humidity, report_strategy=None): '1.1'})], attributes=Attributes(values={}), metadata={})
+2025-06-26 10:19:39.234 - |INFO| - [rest_connector.py] - rest_connector - __call__ - 605 - CONVERTER CONFIG: {'type': 'json', 'deviceInfo': {'deviceNameExpressionSource': 'request', 'deviceNameExpression': '${sensorName}', 'deviceProfileExpressionSource': 'request', 'deviceProfileExpression': '${sensorType}'}, 'attributes': [{'type': 'string', 'key': 'model', 'value': '${sensorModel}'}, {'type': 'string', 'key': '${sensorModel}', 'value': 'on'}], 'timeseries': [{'type': 'double', 'key': 'temperature', 'value': '${temp}'}, {'type': 'double', 'key': 'humidity', 'value': '${hum}'}], 'reportStrategy': None}
+2025-06-26 10:19:39.234 - |INFO| - [json_rest_uplink_converter.py] - json_rest_uplink_converter - convert - 132 - Converted data: ConvertedData(deviceName=watch3, deviceType=watch, telemetry=[TelemetryEntry(ts=1750904379234, metadata={}, values={DatapointKey(key=temperature, report_strategy=None): '2.1', DatapointKey(key=humidity, report_strategy=None): '1.1'})], attributes=Attributes(values={}), metadata={})
+2025-06-26 10:19:41.984 - |INFO| - [rest_connector.py] - rest_connector - __call__ - 605 - CONVERTER CONFIG: {'type': 'json', 'deviceInfo': {'deviceNameExpressionSource': 'request', 'deviceNameExpression': '${sensorName}', 'deviceProfileExpressionSource': 'request', 'deviceProfileExpression': '${sensorType}'}, 'attributes': [{'type': 'string', 'key': 'model', 'value': '${sensorModel}'}, {'type': 'string', 'key': '${sensorModel}', 'value': 'on'}], 'timeseries': [{'type': 'double', 'key': 'temperature', 'value': '${temp}'}, {'type': 'double', 'key': 'humidity', 'value': '${hum}'}], 'reportStrategy': None}
+2025-06-26 10:19:41.984 - |INFO| - [json_rest_uplink_converter.py] - json_rest_uplink_converter - convert - 132 - Converted data: ConvertedData(deviceName=watch4, deviceType=watch, telemetry=[TelemetryEntry(ts=1750904381984, metadata={}, values={DatapointKey(key=temperature, report_strategy=None): '2.1', DatapointKey(key=humidity, report_strategy=None): '1.1'})], attributes=Attributes(values={}), metadata={})
+2025-06-26 10:28:00.835 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-06-26 10:28:03.247 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 113 - Waiting for ThingsBoard client to be initialized...
+2025-06-26 10:28:04.254 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-06-26 10:28:04.256 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-06-26 10:28:04.257 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-06-26 10:29:04.387 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-06-26 10:29:04.401 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-06-26 10:29:04.402 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-06-26 10:29:04.402 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-06-26 10:30:04.992 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-06-26 10:30:05.011 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-06-26 10:30:05.012 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-06-26 10:30:05.014 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-06-26 11:02:36.666 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-06-26 11:02:36.687 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-06-26 11:02:36.688 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-06-26 11:02:36.689 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-06-26 11:03:08.052 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-06-26 11:03:08.072 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-06-26 11:03:08.072 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-06-26 11:03:08.076 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-06-26 14:16:50.359 - |INFO| - [rest_connector.py] - rest_connector - __call__ - 605 - CONVERTER CONFIG: {'type': 'json', 'deviceInfo': {'deviceNameExpression': '${sensorName}', 'deviceNameExpressionSource': 'request', 'deviceProfileExpressionSource': 'constant', 'deviceProfileExpression': 'watch'}, 'attributes': [], 'timeseries': [{'type': 'double', 'key': 'temperature', 'value': '${temp}'}, {'type': 'double', 'key': 'humidity', 'value': '${hum}'}]}
+2025-06-26 14:16:50.359 - |INFO| - [rest_connector.py] - rest_connector - __call__ - 605 - CONVERTER CONFIG: {'type': 'json', 'deviceInfo': {'deviceNameExpression': '${sensorName}', 'deviceNameExpressionSource': 'request', 'deviceProfileExpressionSource': 'constant', 'deviceProfileExpression': 'watch'}, 'attributes': [], 'timeseries': [{'type': 'double', 'key': 'temperature', 'value': '${temp}'}, {'type': 'double', 'key': 'humidity', 'value': '${hum}'}]}
+2025-06-26 14:16:50.359 - |INFO| - [rest_connector.py] - rest_connector - __call__ - 605 - CONVERTER CONFIG: {'type': 'json', 'deviceInfo': {'deviceNameExpression': '${sensorName}', 'deviceNameExpressionSource': 'request', 'deviceProfileExpressionSource': 'constant', 'deviceProfileExpression': 'watch'}, 'attributes': [], 'timeseries': [{'type': 'double', 'key': 'temperature', 'value': '${temp}'}, {'type': 'double', 'key': 'humidity', 'value': '${hum}'}]}
+2025-06-26 14:16:50.359 - |INFO| - [rest_connector.py] - rest_connector - __call__ - 605 - CONVERTER CONFIG: {'type': 'json', 'deviceInfo': {'deviceNameExpression': '${sensorName}', 'deviceNameExpressionSource': 'request', 'deviceProfileExpressionSource': 'constant', 'deviceProfileExpression': 'watch'}, 'attributes': [], 'timeseries': [{'type': 'double', 'key': 'temperature', 'value': '${temp}'}, {'type': 'double', 'key': 'humidity', 'value': '${hum}'}]}
+2025-06-26 14:16:50.359 - |INFO| - [rest_connector.py] - rest_connector - __call__ - 605 - CONVERTER CONFIG: {'type': 'json', 'deviceInfo': {'deviceNameExpression': '${sensorName}', 'deviceNameExpressionSource': 'request', 'deviceProfileExpressionSource': 'constant', 'deviceProfileExpression': 'watch'}, 'attributes': [], 'timeseries': [{'type': 'double', 'key': 'temperature', 'value': '${temp}'}, {'type': 'double', 'key': 'humidity', 'value': '${hum}'}]}
+2025-06-26 14:16:50.361 - |INFO| - [json_rest_uplink_converter.py] - json_rest_uplink_converter - convert - 132 - Converted data: ConvertedData(deviceName=watch4, deviceType=watch, telemetry=[TelemetryEntry(ts=1750918610361, metadata={}, values={DatapointKey(key=temperature, report_strategy=None): '2.1', DatapointKey(key=humidity, report_strategy=None): '1.1'})], attributes=Attributes(values={}), metadata={})
+2025-06-26 14:16:50.361 - |INFO| - [json_rest_uplink_converter.py] - json_rest_uplink_converter - convert - 132 - Converted data: ConvertedData(deviceName=watch4, deviceType=watch, telemetry=[TelemetryEntry(ts=1750918610361, metadata={}, values={DatapointKey(key=temperature, report_strategy=None): '2.1', DatapointKey(key=humidity, report_strategy=None): '1.1'})], attributes=Attributes(values={}), metadata={})
+2025-06-26 14:16:50.361 - |INFO| - [json_rest_uplink_converter.py] - json_rest_uplink_converter - convert - 132 - Converted data: ConvertedData(deviceName=watch4, deviceType=watch, telemetry=[TelemetryEntry(ts=1750918610361, metadata={}, values={DatapointKey(key=temperature, report_strategy=None): '2.1', DatapointKey(key=humidity, report_strategy=None): '1.1'})], attributes=Attributes(values={}), metadata={})
+2025-06-26 14:16:50.361 - |INFO| - [json_rest_uplink_converter.py] - json_rest_uplink_converter - convert - 132 - Converted data: ConvertedData(deviceName=watch4, deviceType=watch, telemetry=[TelemetryEntry(ts=1750918610361, metadata={}, values={DatapointKey(key=temperature, report_strategy=None): '2.1', DatapointKey(key=humidity, report_strategy=None): '1.1'})], attributes=Attributes(values={}), metadata={})
+2025-06-26 14:16:50.361 - |INFO| - [json_rest_uplink_converter.py] - json_rest_uplink_converter - convert - 132 - Converted data: ConvertedData(deviceName=watch4, deviceType=watch, telemetry=[TelemetryEntry(ts=1750918610361, metadata={}, values={DatapointKey(key=temperature, report_strategy=None): '2.1', DatapointKey(key=humidity, report_strategy=None): '1.1'})], attributes=Attributes(values={}), metadata={})
+2025-06-26 14:49:21.453 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-06-26 14:49:21.607 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-06-26 14:49:21.608 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-06-26 14:49:21.609 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-06-26 14:50:21.662 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-06-26 14:50:21.705 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-06-26 14:50:21.705 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-06-26 14:50:21.707 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-06-26 14:51:11.824 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-06-26 14:51:16.062 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-06-26 14:51:16.063 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-06-26 14:51:16.063 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-06-26 14:51:25.758 - |INFO| - [rest_connector.py] - rest_connector - __call__ - 605 - CONVERTER CONFIG: {'type': 'custom', 'extension': 'AESDecryptConverter', 'extension-config': {'key': '123456', 'iv': '111'}}
+2025-06-26 14:51:25.758 - |ERROR| - [tb_logger.py] - tb_logger - exception - 182 - Error while post to anonymous handler: 'NoneType' object has no attribute 'get'
+Traceback (most recent call last):
+  File "C:\Users\dingx\work\src\thingsboard-gateway\thingsboard_gateway\connectors\rest\rest_connector.py", line 608, in __call__
+    converter = self.endpoint['converter'](converted_config, self.log)
+  File "C:\Users\dingx\work\src\thingsboard-gateway\thingsboard_gateway\extensions\rest\aes_decrypt_processor.py", line 12, in __init__
+    self.__key = self.__config.get("key", "").encode('utf-8')
+                 ^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get'
+2025-06-26 14:54:22.369 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-06-26 14:54:25.569 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-06-26 14:54:25.570 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-06-26 14:54:25.571 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-06-26 14:54:47.363 - |INFO| - [rest_connector.py] - rest_connector - __call__ - 605 - CONVERTER CONFIG: {'type': 'custom', 'extension': 'AESDecryptConverter', 'extension-config': {'key': '123456', 'iv': '111'}}
+2025-06-26 14:54:47.368 - |ERROR| - [aes_decrypt_processor.py] - aes_decrypt_processor - convert - 42 - AES 解密失败: Incorrect AES key length (6 bytes)
+2025-06-26 15:01:51.870 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-06-26 15:01:54.864 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-06-26 15:01:54.866 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-06-26 15:01:54.866 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-06-26 15:02:16.884 - |INFO| - [rest_connector.py] - rest_connector - __call__ - 605 - CONVERTER CONFIG: {'type': 'custom', 'extension': 'AESDecryptConverter', 'extension-config': {'key': '0123456789abcdef0123456789abcdef', 'iv': '0123456789abcdef0123456789abcdef'}}
+2025-06-26 15:02:16.888 - |ERROR| - [aes_decrypt_processor.py] - aes_decrypt_processor - convert - 42 - AES 解密失败: Incorrect IV length (it must be 16 bytes long)
+2025-06-26 15:10:31.761 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-06-26 15:10:34.381 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 113 - Waiting for ThingsBoard client to be initialized...
+2025-06-26 15:10:35.382 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-06-26 15:10:35.382 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-06-26 15:10:35.383 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-06-26 15:10:39.856 - |INFO| - [rest_connector.py] - rest_connector - __call__ - 605 - CONVERTER CONFIG: {'type': 'custom', 'extension': 'AESDecryptConverter', 'extension-config': {'key': '0123456789abcdef0123456789abcdef', 'iv': '0123456789abcdef0123456789abcdef'}}
+2025-06-26 15:10:39.859 - |ERROR| - [aes_decrypt_processor.py] - aes_decrypt_processor - convert - 42 - AES 解密失败: Incorrect IV length (it must be 16 bytes long)
+2025-06-26 15:21:29.828 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-06-26 15:21:32.331 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-06-26 15:21:32.332 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-06-26 15:21:32.333 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-06-26 15:21:34.337 - |INFO| - [rest_connector.py] - rest_connector - __call__ - 605 - CONVERTER CONFIG: {'type': 'custom', 'extension': 'AESDecryptConverter', 'extension-config': {'key': '0123456789abcdef0123456789abcdef', 'iv': '0123456789abcdef0123456789abcdef'}}
+2025-06-26 15:21:34.338 - |ERROR| - [aes_decrypt_processor.py] - aes_decrypt_processor - convert - 43 - AES 解密失败: fromhex() argument must be str, not bytes
+2025-06-26 15:24:57.752 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-06-26 15:25:01.113 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-06-26 15:25:01.114 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-06-26 15:25:01.115 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-06-26 15:25:02.886 - |INFO| - [rest_connector.py] - rest_connector - __call__ - 605 - CONVERTER CONFIG: {'type': 'custom', 'extension': 'AESDecryptConverter', 'extension-config': {'key': '0123456789abcdef0123456789abcdef', 'iv': '0123456789abcdef0123456789abcdef'}}
+2025-06-26 15:25:02.886 - |ERROR| - [aes_decrypt_processor.py] - aes_decrypt_processor - convert - 43 - AES 解密失败: fromhex() argument must be str, not bytes
+2025-06-26 15:33:54.269 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-06-26 15:33:57.841 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-06-26 15:33:57.842 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-06-26 15:33:57.843 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-06-26 15:33:59.662 - |INFO| - [rest_connector.py] - rest_connector - __call__ - 605 - CONVERTER CONFIG: {'type': 'custom', 'extension': 'AESDecryptConverter', 'extension-config': {'key': '0123456789abcdef0123456789abcdef', 'iv': '0123456789abcdef0123456789abcdef'}}
+2025-06-26 15:33:59.666 - |ERROR| - [aes_decrypt_processor.py] - aes_decrypt_processor - convert - 42 - AES 解密失败: Object type <class 'str'> cannot be passed to C code
+2025-06-26 15:36:57.113 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-06-26 15:37:01.411 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-06-26 15:37:01.412 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-06-26 15:37:01.412 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-06-26 15:37:03.517 - |INFO| - [rest_connector.py] - rest_connector - __call__ - 605 - CONVERTER CONFIG: {'type': 'custom', 'extension': 'AESDecryptConverter', 'extension-config': {'key': '0123456789abcdef0123456789abcdef', 'iv': '0123456789abcdef0123456789abcdef'}}
+2025-06-26 15:37:03.520 - |ERROR| - [aes_decrypt_processor.py] - aes_decrypt_processor - convert - 35 - {'temp': 2.1, 'hum': 1.1}
+2025-06-26 15:37:03.520 - |ERROR| - [tb_logger.py] - tb_logger - exception - 182 - Error while post to anonymous handler: 'dict' object has no attribute 'attributes_datapoints_count'
+Traceback (most recent call last):
+  File "C:\Users\dingx\work\src\thingsboard-gateway\thingsboard_gateway\connectors\rest\rest_connector.py", line 614, in __call__
+    (converted_data.attributes_datapoints_count > 0 or
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'attributes_datapoints_count'
+2025-06-26 15:45:39.997 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-06-26 15:45:42.353 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-06-26 15:45:42.354 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-06-26 15:45:42.355 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-06-26 15:45:46.798 - |INFO| - [rest_connector.py] - rest_connector - __call__ - 605 - CONVERTER CONFIG: {'type': 'custom', 'extension': 'AESDecryptConverter', 'extension-config': {'key': '0123456789abcdef0123456789abcdef', 'iv': '0123456789abcdef0123456789abcdef'}}
+2025-06-26 15:45:46.800 - |ERROR| - [aes_decrypt_processor.py] - aes_decrypt_processor - convert - 40 - {'temp': 2.1, 'hum': 1.1}
+2025-06-26 15:45:46.800 - |ERROR| - [tb_logger.py] - tb_logger - exception - 182 - Error while post to anonymous handler: 'dict' object has no attribute 'attributes_datapoints_count'
+Traceback (most recent call last):
+  File "C:\Users\dingx\work\src\thingsboard-gateway\thingsboard_gateway\connectors\rest\rest_connector.py", line 614, in __call__
+    (converted_data.attributes_datapoints_count > 0 or
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'attributes_datapoints_count'
+2025-06-26 15:48:04.097 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-06-26 15:48:07.470 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-06-26 15:48:07.471 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-06-26 15:48:07.472 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-06-26 15:48:07.537 - |INFO| - [rest_connector.py] - rest_connector - __call__ - 605 - CONVERTER CONFIG: {'type': 'custom', 'extension': 'AESDecryptConverter', 'extension-config': {'key': '0123456789abcdef0123456789abcdef', 'iv': '0123456789abcdef0123456789abcdef'}}
+2025-06-26 15:48:07.539 - |ERROR| - [aes_decrypt_processor.py] - aes_decrypt_processor - convert - 40 - {'temp': 2.1, 'hum': 1.1}
+2025-06-26 15:48:07.540 - |INFO| - [aes_decrypt_processor.py] - aes_decrypt_processor - convert - 43 - 转换后的数据: {'telemetry': {'temp': 2.1, 'hum': 1.1}, 'attributes': {}}
+2025-06-26 15:48:07.540 - |ERROR| - [tb_logger.py] - tb_logger - exception - 182 - Error while post to anonymous handler: 'dict' object has no attribute 'attributes_datapoints_count'
+Traceback (most recent call last):
+  File "C:\Users\dingx\work\src\thingsboard-gateway\thingsboard_gateway\connectors\rest\rest_connector.py", line 614, in __call__
+    (converted_data.attributes_datapoints_count > 0 or
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'attributes_datapoints_count'
+2025-06-26 15:48:11.396 - |INFO| - [rest_connector.py] - rest_connector - __call__ - 605 - CONVERTER CONFIG: {'type': 'custom', 'extension': 'AESDecryptConverter', 'extension-config': {'key': '0123456789abcdef0123456789abcdef', 'iv': '0123456789abcdef0123456789abcdef'}, 'reportStrategy': None}
+2025-06-26 15:48:11.396 - |ERROR| - [aes_decrypt_processor.py] - aes_decrypt_processor - convert - 40 - {'temp': 2.1, 'hum': 1.1}
+2025-06-26 15:48:11.396 - |INFO| - [aes_decrypt_processor.py] - aes_decrypt_processor - convert - 43 - 转换后的数据: {'telemetry': {'temp': 2.1, 'hum': 1.1}, 'attributes': {}}
+2025-06-26 15:48:11.397 - |ERROR| - [tb_logger.py] - tb_logger - exception - 182 - Error while post to anonymous handler: 'dict' object has no attribute 'attributes_datapoints_count'
+Traceback (most recent call last):
+  File "C:\Users\dingx\work\src\thingsboard-gateway\thingsboard_gateway\connectors\rest\rest_connector.py", line 614, in __call__
+    (converted_data.attributes_datapoints_count > 0 or
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'attributes_datapoints_count'
+2025-06-26 16:17:42.424 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-06-26 16:17:45.317 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-06-26 16:17:45.318 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-06-26 16:17:45.318 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-06-26 16:17:46.732 - |INFO| - [rest_connector.py] - rest_connector - __call__ - 605 - CONVERTER CONFIG: {'type': 'custom', 'extension': 'AESDecryptConverter', 'extension-config': {'key': '0123456789abcdef0123456789abcdef', 'iv': '0123456789abcdef0123456789abcdef'}}
+2025-06-26 16:18:17.838 - |INFO| - [rest_connector.py] - rest_connector - __call__ - 605 - CONVERTER CONFIG: {'type': 'custom', 'extension': 'AESDecryptConverter', 'extension-config': {'key': '0123456789abcdef0123456789abcdef', 'iv': '0123456789abcdef0123456789abcdef'}, 'reportStrategy': None}
+2025-06-26 16:19:37.582 - |INFO| - [rest_connector.py] - rest_connector - __call__ - 605 - CONVERTER CONFIG: {'type': 'custom', 'extension': 'AESDecryptConverter', 'extension-config': {'key': '0123456789abcdef0123456789abcdef', 'iv': '0123456789abcdef0123456789abcdef'}, 'reportStrategy': None}
+2025-06-26 17:09:51.628 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-06-26 17:09:51.848 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/reportrri', '/reportsport', '/reporthealthy', '/anon1', '/anon2', '/sharedAttributes']
+2025-06-26 17:09:51.852 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-06-26 17:09:51.855 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-06-26 17:11:51.956 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-06-26 17:11:52.015 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/report_rri', '/report_sport', '/report_health', '/anon1', '/anon2', '/sharedAttributes']
+2025-06-26 17:11:52.017 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-06-26 17:11:52.017 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-01 09:19:57.951 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/report_rri', '/report_sport', '/report_health', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-01 09:19:57.952 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-01 09:19:57.952 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-01 10:19:44.107 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-01 10:46:47.978 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/report_rri', '/report_sport', '/report_health', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-01 10:46:47.979 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-01 10:46:47.980 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-01 11:12:51.933 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-01 11:12:52.056 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/report_rri', '/report_sport', '/report_health', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-01 11:12:52.057 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-01 11:12:52.057 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-01 13:56:06.849 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-01 13:56:06.940 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/report_rri', '/report_sport', '/report_health', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-01 13:56:06.943 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-01 13:56:06.945 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-01 13:57:06.995 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-01 13:57:07.059 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/report_rri', '/report_sport', '/report_health', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-01 13:57:07.060 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-01 13:57:07.061 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-01 13:58:07.125 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-01 13:58:07.191 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/report_rri', '/report_sport', '/report_health', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-01 13:58:07.192 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-01 13:58:07.193 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-01 14:38:10.763 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-01 14:38:10.831 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/report_rri', '/report_sport', '/report_health', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-01 14:38:10.832 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-01 14:38:10.832 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-01 15:18:03.212 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-01 15:18:08.250 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/report_rri', '/report_sport', '/report_health', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-01 15:18:08.251 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-01 15:18:08.251 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-01 15:18:33.907 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-01 15:18:36.829 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/report_rri', '/report_sport', '/report_health', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-01 15:18:36.830 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-01 15:18:36.831 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-01 15:23:10.834 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-01 15:23:14.844 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/report_rri', '/report_sport', '/report_health', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-01 15:23:14.845 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-01 15:23:14.846 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-01 15:28:13.155 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-01 15:28:16.586 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/report_rri', '/report_sport', '/report_health', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-01 15:28:16.587 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-01 15:28:16.588 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-01 15:30:01.389 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-01 15:30:05.274 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/report_rri', '/report_sport', '/report_health', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-01 15:30:05.275 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-01 15:30:05.276 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-01 15:30:46.889 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-01 15:30:50.867 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/report_rri', '/report_sport', '/report_health', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-01 15:30:50.868 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-01 15:30:50.868 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-01 15:32:46.502 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-01 15:32:50.627 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/report_rri', '/report_sport', '/report_health', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-01 15:32:50.628 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-01 15:32:50.628 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-01 15:38:26.472 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-01 15:38:30.703 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/report_rri', '/report_sport', '/report_health', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-01 15:38:30.704 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-01 15:38:30.705 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-01 15:39:06.283 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-01 15:39:10.254 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/report_rri', '/report_sport', '/report_health', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-01 15:39:10.255 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-01 15:39:10.256 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-01 15:41:10.685 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-01 15:41:12.674 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/report_rri', '/report_sport', '/report_health', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-01 15:41:12.674 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-01 15:41:12.675 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-01 15:42:39.764 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-01 15:42:42.798 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/report_rri', '/report_sport', '/report_health', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-01 15:42:42.799 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-01 15:42:42.799 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-01 16:50:08.450 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-01 17:20:39.561 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/report_rri', '/report_sport', '/report_health', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-01 17:20:39.562 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-01 17:20:39.563 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-01 17:22:04.787 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-01 17:22:08.544 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/report_rri', '/report_sport', '/report_health', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-01 17:22:08.544 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-01 17:22:08.545 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-01 17:24:41.565 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-01 17:24:45.424 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/report_rri', '/report_sport', '/report_health', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-01 17:24:45.425 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-01 17:24:45.426 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-01 17:27:42.517 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-01 17:27:45.400 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/report_rri', '/report_sport', '/report_health', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-01 17:27:45.401 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-01 17:27:45.401 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-01 17:35:52.815 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-01 17:35:57.169 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/report_rri', '/report_sport', '/report_health', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-01 17:35:57.170 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-01 17:35:57.170 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-01 17:36:58.544 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-01 17:36:58.593 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/report_rri', '/report_sport', '/report_health', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-01 17:36:58.594 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-01 17:36:58.596 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-01 17:42:59.110 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-01 17:42:59.136 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/report_rri', '/report_sport', '/report_health', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-01 17:42:59.136 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-01 17:42:59.137 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-01 17:43:59.194 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-01 17:43:59.235 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/report_rri', '/report_sport', '/report_health', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-01 17:43:59.235 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-01 17:43:59.237 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-01 17:44:59.380 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-01 17:44:59.415 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/report_rri', '/report_sport', '/report_health', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-01 17:44:59.415 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-01 17:44:59.416 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-01 17:45:59.510 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-01 17:45:59.541 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/report_rri', '/report_sport', '/report_health', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-01 17:45:59.542 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-01 17:45:59.543 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-01 17:46:59.689 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-01 17:46:59.725 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/report_rri', '/report_sport', '/report_health', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-01 17:46:59.726 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-01 17:46:59.726 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-01 17:47:59.884 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-01 17:47:59.924 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/report_rri', '/report_sport', '/report_health', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-01 17:47:59.925 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-01 17:47:59.928 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-01 17:49:00.060 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-01 17:49:00.086 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/report_rri', '/report_sport', '/report_health', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-01 17:49:00.086 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-01 17:49:00.087 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-02 16:06:04.901 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/report_rri', '/report_sport', '/report_health', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-02 16:06:04.902 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-02 16:06:04.902 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-02 16:06:10.807 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-02 16:10:13.627 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 113 - Waiting for ThingsBoard client to be initialized...
+2025-07-02 16:10:14.628 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/report_rri', '/report_sport', '/report_health', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-02 16:10:14.630 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-02 16:10:14.632 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-02 16:11:31.675 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-02 16:11:35.213 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/report_rri', '/report_sport', '/report_health', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-02 16:11:35.214 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-02 16:11:35.214 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-02 16:11:48.562 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-02 16:11:59.039 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/report_rri', '/report_sport', '/report_health', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-02 16:11:59.040 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-02 16:11:59.040 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-02 16:12:04.304 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-02 16:12:08.124 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/report_rri', '/report_sport', '/report_health', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-02 16:12:08.124 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-02 16:12:08.125 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-02 16:13:45.299 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-02 16:13:48.932 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/report_rri', '/report_sport', '/report_health', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-02 16:13:48.933 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-02 16:13:48.933 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-02 16:15:52.359 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-02 16:15:55.890 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 113 - Waiting for ThingsBoard client to be initialized...
+2025-07-02 16:15:56.890 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/report_rri', '/report_sport', '/report_health', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-02 16:15:56.891 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-02 16:15:56.892 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-02 16:22:29.897 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-02 16:22:33.392 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/report_rri', '/report_sport', '/report_health', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-02 16:22:33.392 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-02 16:22:33.393 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-02 17:06:30.792 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-02 17:06:35.046 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/report_rri', '/report_sport', '/report_health', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-02 17:06:35.047 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-02 17:06:35.047 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-02 17:13:16.214 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-02 17:22:35.509 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/report_rri', '/report_sport', '/report_health', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-02 17:22:35.510 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-02 17:22:35.511 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-02 17:47:40.829 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-02 17:47:44.382 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/report_rri', '/report_sport', '/report_health', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-02 17:47:44.383 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-02 17:47:44.383 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-02 17:48:23.181 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/report_rri', '/report_sport', '/report_health', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-02 17:48:23.182 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-02 17:48:23.182 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-02 17:48:34.537 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-02 17:48:50.569 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/report_rri', '/report_sport', '/report_health', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-02 17:48:50.570 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-02 17:48:50.571 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-02 17:53:15.464 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-02 17:53:19.017 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/report_rri', '/report_sport', '/report_health', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-02 17:53:19.017 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-02 17:53:19.018 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-02 17:58:57.482 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-02 17:59:01.159 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/report_rri', '/report_sport', '/report_health', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-02 17:59:01.160 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-02 17:59:01.161 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-02 18:00:51.472 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-02 18:00:55.034 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/report_rri', '/report_sport', '/report_health', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-02 18:00:55.034 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-02 18:00:55.035 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-02 18:05:18.613 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-02 18:05:22.082 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/report_rri', '/report_sport', '/report_health', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-02 18:05:22.083 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-02 18:05:22.084 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-02 18:08:03.879 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-02 18:08:08.273 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/report_rri', '/report_sport', '/report_health', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-02 18:08:08.274 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-02 18:08:08.274 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-02 18:09:42.369 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-02 18:09:45.946 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 113 - Waiting for ThingsBoard client to be initialized...
+2025-07-02 18:09:46.947 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/report_rri', '/report_sport', '/report_health', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-02 18:09:46.948 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-02 18:09:46.949 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-02 18:11:16.044 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-02 18:11:19.653 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/report_rri', '/report_sport', '/report_health', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-02 18:11:19.654 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-02 18:11:19.654 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-02 18:13:35.167 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-02 18:13:38.731 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/report_rri', '/report_sport', '/report_health', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-02 18:13:38.731 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-02 18:13:38.732 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-02 18:16:51.728 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-02 18:16:55.299 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/report_rri', '/report_sport', '/report_health', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-02 18:16:55.300 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-02 18:16:55.300 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-03 08:58:59.894 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-03 09:40:08.158 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-03 09:40:08.159 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-03 09:40:08.160 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-03 09:42:07.586 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-03 09:42:07.606 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-03 09:42:07.607 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-03 09:42:07.607 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-03 10:20:59.083 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-03 10:21:00.631 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-03 10:21:00.632 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-03 10:21:00.632 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-03 10:28:02.669 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-03 10:28:02.704 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-03 10:28:02.705 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-03 10:28:02.705 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-03 10:28:36.784 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-03 10:28:38.224 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-03 10:28:38.225 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-03 10:28:38.225 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-03 10:31:14.166 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-03 10:31:15.619 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-03 10:31:15.620 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-03 10:31:15.621 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-03 10:33:20.165 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-03 10:33:21.604 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-03 10:33:21.604 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-03 10:33:21.605 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-03 10:35:22.997 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-03 10:35:23.024 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-03 10:35:23.024 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-03 10:35:23.024 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-03 10:40:35.048 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-03 10:40:54.452 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-03 10:40:54.453 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-03 10:40:54.453 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-03 10:57:26.739 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-03 10:57:28.271 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-03 10:57:28.273 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-03 10:57:28.273 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-03 11:05:30.260 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-03 11:05:30.300 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-03 11:05:30.303 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-03 11:05:30.310 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-03 11:10:10.921 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-03 11:10:12.299 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-03 11:10:12.300 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-03 11:10:12.301 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-03 11:11:13.646 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-03 11:11:13.672 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-03 11:11:13.672 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-03 11:11:13.672 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-03 11:11:43.531 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-03 11:11:45.003 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-03 11:11:45.004 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-03 11:11:45.004 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-03 11:12:58.301 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-03 11:12:59.700 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-03 11:12:59.701 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-03 11:12:59.702 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-03 11:23:00.589 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.

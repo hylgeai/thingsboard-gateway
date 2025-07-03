@@ -1,6 +1,6 @@
 {
   "thingsboard": {
-    "host": "thingsboard.cloud",
+    "host": "120.24.76.93",
     "port": 1883,
     "remoteShell": false,
     "remoteConfiguration": true,
@@ -21,7 +21,7 @@
     "handleDeviceRenaming": true,
     "security": {
       "type": "accessToken",
-      "accessToken": "YOUR_ACCESS_TOKEN"
+      "accessToken": "d69lLxGfaXwnWRJi4kpT"
     },
     "qos": 1,
     "reportStrategy": {
@@ -61,5 +61,21 @@
     "minTimeBetweenPingsMs": 10000,
     "minPingIntervalWithoutDataMs": 5000
   },
-  "connectors": []
+  "connectors": [
+    {
+      "type": "rest",
+      "name": "rest_test",
+      "configuration": "restTest.json"
+    },
+    {
+      "type": "mqtt",
+      "name": "MQTT Aliyun",
+      "configuration": "mqttAliyun.json"
+    },
+    {
+      "type": "socket",
+      "name": "socket_test",
+      "configuration": "socketTest.json"
+    }
+  ]
 }

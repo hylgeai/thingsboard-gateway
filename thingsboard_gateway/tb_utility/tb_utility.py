@@ -13,6 +13,7 @@
 #     limitations under the License.
 import ast
 import datetime
+import json
 from getpass import getuser
 from logging import getLogger, setLoggerClass
 from os import environ
@@ -359,6 +360,7 @@ class TBUtility:
 
     @staticmethod
     def resolve_different_ts_formats(data: dict, config: dict, logger, default_ts: bool = True):
+        print(f"data: {data}")
         ts_field_expression = config.get('tsField')
         if ts_field_expression is not None:
             ts_field_key = None
@@ -374,12 +376,7 @@ class TBUtility:
             except Exception as e:
                 logger.debug("Error while parsing timestamp %s: %s with configured tsField: %s",
                              ts_field_key, e, config['tsField'])
-
-        time_seconds = config.get("time")
-        if time_seconds is not None:
-            return time_seconds * 1000
-
-        return data.get('ts', data.get('timestamp')) if default_ts else None
+        return data.get('time', data.get('timestamp')) if default_ts else None
 
     @staticmethod
     def get_service_environmental_variables():

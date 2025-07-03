@@ -1,0 +1,12 @@
+2025-07-02 14:08:27.793 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/report_rri', '/report_sport', '/report_health', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-02 14:08:27.794 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-02 14:08:27.794 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-02 14:09:36.867 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-02 14:09:43.714 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/report_rri', '/report_sport', '/report_health', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-02 14:09:43.715 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-02 14:09:43.716 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-02 14:10:06.206 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-02 14:10:11.512 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/report_rri', '/report_sport', '/report_health', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-02 14:10:11.513 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-02 14:10:11.513 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-02 15:06:40.689 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
