@@ -371,6 +371,11 @@ class TBUtility:
             except Exception as e:
                 logger.debug("Error while parsing timestamp %s: %s with configured tsField: %s",
                              ts_field_key, e, config['tsField'])
+
+        time_seconds = config.get("time")
+        if time_seconds is not None:
+            return time_seconds * 1000
+
         return data.get('ts', data.get('timestamp')) if default_ts else None
 
     @staticmethod
