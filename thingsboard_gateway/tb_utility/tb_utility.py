@@ -11,6 +11,7 @@
 #     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 #     See the License for the specific language governing permissions and
 #     limitations under the License.
+import ast
 import datetime
 from getpass import getuser
 from logging import getLogger, setLoggerClass
@@ -227,6 +228,8 @@ class TBUtility:
                 return float(evaluated_data)
             elif 'bool' in new_type:
                 return TBUtility.str_to_bool(evaluated_data)
+            elif 'json' in new_type:
+                return ast.literal_eval(evaluated_data)
             else:
                 return str(evaluated_data)
         except ValueError:
