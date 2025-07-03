@@ -19,7 +19,6 @@ import logging.handlers
 import multiprocessing.managers
 import os.path
 import subprocess
-import traceback
 from copy import deepcopy
 from os import execv, listdir, path, pathsep, stat, system
 from platform import system as platform_system
@@ -1444,9 +1443,7 @@ class TBGatewayService:
                         start_pack_processing = time()
                         for event in events:
                             try:
-                                log.error("uuuuuuuuu 1111 %s,%s",str(event),type(event))
                                 current_event = loads(event)
-                                log.error("uuuuuuuuu 2222 %s %s", str(current_event),type(current_event))
                             except Exception as e:
                                 log.error("Error while processing event from the storage, it will be skipped.",
                                           exc_info=e)
@@ -1887,10 +1884,7 @@ class TBGatewayService:
             self.__devices_shared_attributes = {}
             return False
 
-        global log
-        log.info("111111111111111 %s,%s", device_type, device_name)
         device_type = device_type if device_type is not None else 'default'
-        log.info("2222222222222222 %s,%s", device_type, device_name)
 
         if device_name in self.__renamed_devices:
             if self.__sync_devices_shared_attributes_on_connect and hasattr(content['connector'],
@@ -1927,7 +1921,7 @@ class TBGatewayService:
                                                              "last_send_ts": monotonic()}
                         self.gw_send_attributes(device_name, device_details)
                 except Exception as e:
-                    #global log
+                    global log
                     log.error("Error on sending device details about the device %s", device_name, exc_info=e)
                     return False
 

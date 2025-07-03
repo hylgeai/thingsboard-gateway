@@ -601,8 +601,7 @@ class MqttConnector(Connector, Thread):
             found_device_type = TBUtility.get_value(device_info["deviceProfileExpression"], content,
                                                     expression_instead_none=True)
         elif device_info.get("deviceProfileExpressionSource") == 'constant':
-            #found_device_type = TBUtility.get_value(device_info["deviceProfileExpression"], content,expression_instead_none=True)
-            found_device_type = device_info["deviceProfileExpression"]
+            found_device_type = TBUtility.get_value(device_info["deviceProfileExpression"], content,)
 
         return found_device_name, found_device_type
 
@@ -653,9 +652,10 @@ class MqttConnector(Connector, Thread):
 
                         # Get device name, either from topic or from content
                         device_info = handler.get("deviceInfo", {})
-                        self.__log.info("444444444444444444444 %s,%s,%s", topic, str(content),str(device_info))
+
                         found_device_name, found_device_type = MqttConnector._parse_device_info(device_info,
                                                                                                 message.topic, content)
+
                         if found_device_name is None:
                             self.__log.error("Device name missing from connection request")
                             continue

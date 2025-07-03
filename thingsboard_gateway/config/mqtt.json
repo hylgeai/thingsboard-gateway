@@ -1,8 +1,8 @@
 {
   "broker": {
-    "host": "mqtt-cn-ot93vfkv202.mqtt.aliyuncs.com",
+    "host": "127.0.0.1",
     "port": 1883,
-    "clientId": "GID_HJY_MQTTX@@@huhaolong000",
+    "clientId": "ThingsBoard_gateway",
     "version": 5,
     "maxMessageNumberPerWorker": 10,
     "maxNumberOfWorkers": 100,
@@ -11,22 +11,20 @@
     "cleanStart": true,
     "sessionExpiryInterval": 0,
     "security": {
-      "type": "basic",
-      "username": "Signature|LTAI5t5ZQhq6sME2r7Mbn8vw|mqtt-cn-ot93vfkv202",
-      "password": "Hg15yaAqjgBnpwzoFrZ9X/KtplQ="
+      "type": "anonymous"
     }
   },
   "mapping": [
     {
-      "topicFilter": "hjy-dev/t1/+/attr/",
+      "topicFilter": "sensor/data",
       "subscriptionQos": 1,
       "converter": {
         "type": "json",
         "deviceInfo": {
           "deviceNameExpressionSource": "message",
-          "deviceNameExpression": "${id}",
-          "deviceProfileExpressionSource": "constant",
-          "deviceProfileExpression": "t01"
+          "deviceNameExpression": "${serialNumber}",
+          "deviceProfileExpressionSource": "message",
+          "deviceProfileExpression": "${sensorType}"
         },
         "sendDataOnlyOnChange": false,
         "timeout": 60000,
@@ -142,12 +140,12 @@
   "requestsMapping": {
     "connectRequests": [
       {
-        "topicFilter": "hjy-dev/t1/+/info/",
+        "topicFilter": "sensor/connect",
         "deviceInfo": {
           "deviceNameExpressionSource": "message",
-          "deviceNameExpression": "${id}",
+          "deviceNameExpression": "${serialNumber}",
           "deviceProfileExpressionSource": "constant",
-          "deviceProfileExpression": "t01"
+          "deviceProfileExpression": "Thermometer"
         }
       },
       {
