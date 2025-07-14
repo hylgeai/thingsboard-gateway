@@ -1,5 +1,7 @@
 exclude-labels:
   - 'Ignore for release'
+  - 'Temp:IncludedInMainDraft'
+include-labels:
   - 'bug'
 
 name-template: 'ThingsBoard IoT Gateway v$NEXT_PATCH_VERSION'
@@ -10,73 +12,73 @@ template: |
 change-template: '* $TITLE (#$NUMBER) @$AUTHOR'
 
 header: |
-  ## 🛠 Improvements
+  ## 🐛 Bug fixes
 
 category-template: '#### $TITLE'
 categories:
 
-  - title: '⚙️ Core:'
+  - title: '🐛 Core:'
     labels:
       - 'core'
 
-  - title: '🧩 MQTT connector:'
+  - title: '🐛 MQTT connector:'
     labels:
       - 'Connector:MQTT'
 
-  - title: '🧩 Modbus connector:'
+  - title: '🐛 Modbus connector:'
     labels:
       - 'Connector:Modbus'
 
-  - title: '🧩 OPC-UA connector:'
+  - title: '🐛 OPC-UA connector:'
     labels:
       - 'Connector:OPC-UA'
 
-  - title: '🧩 BLE connector:'
+  - title: '🐛 BLE connector:'
     labels:
       - 'Connector:BLE'
 
-  - title: '🧩 BACnet connector:'
+  - title: '🐛 BACnet connector:'
     labels:
       - 'Connector:BACnet'
 
-  - title: '🧩 KNX connector:'
+  - title: '🐛 KNX connector:'
     labels:
       - 'Connector:KNX'
 
-  - title: '🧩 CAN connector:'
+  - title: '🐛 CAN connector:'
     labels:
       - 'Connector:CAN'
 
-  - title: '🧩 FTP connector:'
+  - title: '🐛 FTP connector:'
     labels:
       - 'Connector:FTP'
 
-  - title: '🧩 OCPP connector:'
+  - title: '🐛 OCPP connector:'
     labels:
       - 'Connector:OCPP'
 
-  - title: '🧩 ODBC connector:'
+  - title: '🐛 ODBC connector:'
     labels:
       - 'Connector:ODBC'
 
-  - title: '🧩 Request connector:'
+  - title: '🐛 Request connector:'
     labels:
       - 'Connector:Request'
 
-  - title: '🧩 REST connector:'
+  - title: '🐛 REST connector:'
     labels:
       - 'Connector:REST'
 
-  - title: '🧩 SNMP connector:'
+  - title: '🐛 SNMP connector:'
     labels:
       - 'Connector:SNMP'
 
-  - title: '🧩 Socket connector:'
+  - title: '🐛 Socket connector:'
     labels:
       - 'Connector:Socket'
 
-  - title: '🧩 XMPP connector:'
+  - title: '🐛 XMPP connector:'
     labels:
       - 'Connector:XMPP'
 
-  - title: "Other:"
+  - title: '🐛 Other:'
