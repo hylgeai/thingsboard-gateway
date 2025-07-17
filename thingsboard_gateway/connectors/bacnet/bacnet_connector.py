@@ -21,6 +21,7 @@ from random import choice
 from time import monotonic, sleep
 from typing import TYPE_CHECKING
 
+from thingsboard_gateway.connectors.bacnet.ede_parser import EDEParser
 from thingsboard_gateway.connectors.bacnet.entities.routers import Routers
 from thingsboard_gateway.connectors.connector import Connector
 from thingsboard_gateway.gateway.constants import STATISTIC_MESSAGE_RECEIVED_PARAMETER, STATISTIC_MESSAGE_SENT_PARAMETER
@@ -40,7 +41,6 @@ from bacpypes3.pdu import Address, IPv4Address
 from thingsboard_gateway.connectors.bacnet.device import Device, Devices
 from thingsboard_gateway.connectors.bacnet.entities.device_object_config import DeviceObjectConfig
 from thingsboard_gateway.connectors.bacnet.application import Application
-from thingsboard_gateway.connectors.bacnet.foreign_application import ForeignApplication
 from thingsboard_gateway.connectors.bacnet.backward_compatibility_adapter import BackwardCompatibilityAdapter
 from bacpypes3.primitivedata import Null
 
@@ -67,6 +67,11 @@ class AsyncBACnetConnector(Thread, Connector):
                                            enable_remote_logging=remote_logging,
                                            is_converter_logger=True, attr_name=self.name)
         self.__log.info('Starting BACnet connector...')
+
+        if EDEParser.is_ede_config(self.__config):
+            self.__log.info('EDE config detected, parsing...')
+            self.__parse_ede_config()
+            self.__log.debug('EDE config parsed')
 
         if BackwardCompatibilityAdapter.is_old_config(config):
             backward_compatibility_adapter = BackwardCompatibilityAdapter(config, self.__log)
@@ -100,15 +105,25 @@ class AsyncBACnetConnector(Thread, Connector):
         self.__previous_discover_time = 0
         self.__devices_rescan_objects_period = self.__config['application'].get('devicesRescanObjectsPeriodSeconds', 60)
 
+    def __parse_ede_config(self):
+        try:
+            parsed_ede_config = EDEParser.parse(self.__config)
+            self.__config = parsed_ede_config
+        except Exception as e:
+            self.__log.error(f"Error parsing EDE config: {e}")
+
     def get_device_shared_attributes_keys(self, device_name):
         task = self.loop.create_task(self.__devices.get_device_by_name(device_name))
         started = monotonic()
         while not task.done() and not self.__stopped and monotonic() - started < 1.0:
             sleep(.02)
 
-        device = task.result() if not task.cancelled() else None
-        if device is not None:
-            return device.shared_attributes_keys
+        try:
+            device = task.result() if not task.cancelled() else None
+            if device is not None:
+                return device.shared_attributes_keys
+        except Exception:
+            return []
 
         return []
 
@@ -184,12 +199,13 @@ class AsyncBACnetConnector(Thread, Connector):
 
     async def __start(self):
         if self.__config.get('foreignDevice', {}).get('address', ''):
-            self.__application = ForeignApplication(DeviceObjectConfig(
-                self.__config['application']), self.__handle_indication, self.__log)
+            self.__application = Application(DeviceObjectConfig(
+                self.__config['application']), self.__handle_indication, self.__log,
+                is_foreign_application=True)
 
             foreign_device_address = IPv4Address(self.__config['foreignDevice']['address'])
             foreign_device_ttl = int(self.__config['foreignDevice']['ttl'])
-            self.__application.register_device(foreign_device_address, foreign_device_ttl)
+            self.__application.register_foreign_device(foreign_device_address, foreign_device_ttl)
         else:
             self.__application = Application(DeviceObjectConfig(
                 self.__config['application']), self.__handle_indication, self.__log)
@@ -218,6 +234,10 @@ class AsyncBACnetConnector(Thread, Connector):
 
                 device_address = apdu.pduSource.__str__()
                 self.__log.info('Received APDU, from %s, trying to find device...', device_address)
+
+                # Continue if APDU has no iAmDeviceIdentifier or it is None
+                if not hasattr(apdu, 'iAmDeviceIdentifier') or apdu.iAmDeviceIdentifier is None:
+                    continue
 
                 added_device = await self.__devices.get_device_by_id(apdu.iAmDeviceIdentifier[1])
                 if added_device is None:

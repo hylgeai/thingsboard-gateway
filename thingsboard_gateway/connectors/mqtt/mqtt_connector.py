@@ -197,6 +197,7 @@ class MqttConnector(Connector, Thread):
         # Set up external MQTT broker connection -----------------------------------------------------------------------
         client_id = self.__broker.get("clientId", ''.join(random.choice(string.ascii_lowercase) for _ in range(23)))
 
+        self._keepAlive = self.__broker.get("keepAlive", 60)
         self._cleanSession = self.__broker.get("cleanSession", True)
         self._cleanStart = self.__broker.get("cleanStart", True)
         self._sessionExpiryInterval = self.__broker.get("sessionExpiryInterval", 0)
@@ -225,7 +226,7 @@ class MqttConnector(Connector, Thread):
 
         if "caCert" in self.__broker["security"] \
                 or self.__broker["security"].get("type", "none").lower() == "certificates":
-            
+
             self.__log.debug("Connector connecting with certificates")
             ca_cert = self.__broker["security"].get("pathToCACert")
             private_key = self.__broker["security"].get("pathToPrivateKey")
@@ -355,12 +356,15 @@ class MqttConnector(Connector, Thread):
         while not self._connected and not self.__stopped:
             try:
                 if self._mqtt_version != 5:
-                    self._client.connect(self.__broker['host'], self.__broker.get('port', 1883))
+                    self._client.connect(self.__broker['host'],
+                                         self.__broker.get('port', 1883),
+                                         keepalive=self._keepAlive)
                 else:
                     properties = Properties(PacketTypes.CONNECT)
                     properties.SessionExpiryInterval = self._sessionExpiryInterval
                     self._client.connect(self.__broker['host'],
                                          self.__broker.get('port', 1883),
+                                         keepalive=self._keepAlive,
                                          clean_start=self._cleanStart,
                                          properties=properties)
                 self._client.loop_start()
@@ -542,6 +546,8 @@ class MqttConnector(Connector, Thread):
 
     def put_data_to_convert(self, converter, message, content) -> bool:
         if not self.__msg_queue.full():
+            if not hasattr(converter, 'SUPPORTS_BYTES_PAYLOAD'):
+                content = TBUtility.decode(content)
             self.__msg_queue.put((converter.convert, message.topic, content), True, 100)
             return True
         return False
@@ -613,7 +619,7 @@ class MqttConnector(Connector, Thread):
                 client, userdata, message = self._on_message_queue.get_nowait()
 
                 self.statistics['MessagesReceived'] += 1
-                content = TBUtility.decode(message)
+                content = None
 
                 # Check if message topic exists in mappings "i.e., I'm posting telemetry/attributes" -------------------
                 topic_handlers = [regex for regex in self.__mapping_sub_topics if fullmatch(regex, message.topic)]
@@ -630,7 +636,7 @@ class MqttConnector(Connector, Thread):
                         available_converters = self.__mapping_sub_topics[topic]
                         for converter in available_converters:
                             try:
-                                request_handled = self.put_data_to_convert(converter, message, content)
+                                request_handled = self.put_data_to_convert(converter, message, message.payload)
                             except Exception as e:
                                 self.__log.exception(e)
 
@@ -649,6 +655,8 @@ class MqttConnector(Connector, Thread):
                                   fullmatch(regex, message.topic)]
 
                 if topic_handlers:
+                    if content is None:
+                        content = TBUtility.decode(message)
                     for topic in topic_handlers:
                         handler = self.__connect_requests_sub_topics[topic]
 
@@ -673,6 +681,8 @@ class MqttConnector(Connector, Thread):
                 topic_handlers = [regex for regex in self.__disconnect_requests_sub_topics if
                                   fullmatch(regex, message.topic)]
                 if topic_handlers:
+                    if content is None:
+                        content = TBUtility.decode(message)
                     for topic in topic_handlers:
                         handler = self.__disconnect_requests_sub_topics[topic]
 
@@ -701,6 +711,8 @@ class MqttConnector(Connector, Thread):
                 topic_handlers = [regex for regex in self.__attribute_requests_sub_topics if
                                   fullmatch(regex, message.topic)]
                 if topic_handlers:
+                    if content is None:
+                        content = TBUtility.decode(message)
                     try:
                         for topic in topic_handlers:
                             handler = self.__attribute_requests_sub_topics[topic]
@@ -805,7 +817,7 @@ class MqttConnector(Connector, Thread):
                         if match(attribute_update["attributeFilter"], attribute_key):
                             received_value = content["data"][attribute_key]
                             if isinstance(received_value, dict) or isinstance(received_value, list):
-                                received_value = orjson.dumps(received_value)
+                                received_value = orjson.dumps(received_value).decode('utf-8')
                             elif isinstance(received_value, bool):
                                 received_value = str(received_value).lower()
                             elif isinstance(received_value, float) or isinstance(received_value, int):
@@ -977,7 +989,6 @@ class MqttConnector(Connector, Thread):
                     for rpc_config in self.__server_side_rpc:
                         if search(rpc_config["deviceNameFilter"], content["device"]) \
                                 and search(rpc_config["methodFilter"], rpc_method) is not None:
-
                             return self.__process_rpc_request(content, rpc_config)
 
                     self.__log.error("RPC not handled: %s", content)
@@ -1003,7 +1014,6 @@ class MqttConnector(Connector, Thread):
 
     def get_converters(self):
         return [item[0] for _, item in self.__mapping_sub_topics.items()]
-
 
     def _send_current_converter_config(self, name, config):
         self.__gateway.send_attributes({name: config})
