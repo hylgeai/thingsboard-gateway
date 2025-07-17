@@ -206,10 +206,12 @@ class MqttConnector(Connector, Thread):
             if self._mqtt_version != 5:
                 self._client = Client(client_id=client_id, clean_session=self._cleanSession,
                                       protocol=MQTT_VERSIONS[self._mqtt_version])
+                self.__log.error('---------- MQTT version != 5 ------------. Starting up on version 5...%s', str(self._mqtt_version))
             else:
                 self._client = Client(client_id=client_id, protocol=MQTT_VERSIONS[self._mqtt_version])
+                self.__log.error(' -----------MQTT version == 5 --------. Starting up on version 5...%s %s',str(self._mqtt_version),str(client_id))
         except KeyError:
-            self.__log.error('Unknown MQTT version. Starting up on version 5...')
+            self.__log.error('------------Unknown MQTT version. Starting up on version 5...-------------')
             self._client = Client(client_id=client_id, protocol=MQTTv5)
             self._mqtt_version = 5
 

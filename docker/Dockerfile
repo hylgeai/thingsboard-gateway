@@ -2,7 +2,11 @@ FROM python:3.11-slim AS build
 
 ARG TARGETPLATFORM
 ARG BUILDPLATFORM
+# 保证 requirements.txt 被复制进镜像
+COPY requirements.txt /home/requirements.txt
 
+# 然后再执行安装
+# RUN python3 -m pip install --no-cache-dir -r /tmp/requirements.txt
 COPY ./thingsboard_gateway /thingsboard_gateway
 COPY . .
 
@@ -12,14 +16,13 @@ ENV PATH="/root/.cargo/bin:/root/.local/bin:$PATH" \
     extensions="/thingsboard_gateway/extensions" \
     logs="/thingsboard_gateway/logs"
 
+RUN pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 RUN mkdir -p /default-config/config /default-config/extensions/ &&  \
     cp -r /thingsboard_gateway/config/* /default-config/config/ &&  \
     cp -r /thingsboard_gateway/extensions/* /default-config/extensions &&  \
     echo "Running on $BUILDPLATFORM, building for $TARGETPLATFORM" > /log && \
-    apt-get update &&  \
-    apt-get install -y --no-install-recommends \
-    gcc python3-dev build-essential libssl-dev libffi-dev zlib1g-dev \
-    python3-grpcio curl pkg-config libssl-dev &&  \
+    echo "deb http://mirrors.aliyun.com/debian bookworm main contrib non-free\n\
+deb http://mirrors.aliyun.com/debian bookworm-updates main contrib non-free" > /etc/apt/sources.list && \
     case "$TARGETPLATFORM" in \
         "linux/amd64") DEFAULT_HOST="x86_64-unknown-linux-gnu";; \
         "linux/386") DEFAULT_HOST="i686-unknown-linux-gnu";; \
@@ -28,9 +31,6 @@ RUN mkdir -p /default-config/config /default-config/extensions/ &&  \
         *) \
             echo "Unsupported platform detected. Trying to use default value...";; \
         esac && \
-    curl https://sh.rustup.rs -sSf | sh -s -- -y --default-host=$DEFAULT_HOST --profile minimal && \
-    apt-get clean && \
-    rm -rf /var/lib/apt/lists/* /tmp/* && \
     echo '#!/bin/sh\n\
 # Main start script\n\
 CONF_FOLDER="/thingsboard_gateway/config"\n\
@@ -46,13 +46,9 @@ python /thingsboard_gateway/tb_gateway.py' > /start-gateway.sh && chmod +x /star
     python3 -m pip install --no-cache-dir --upgrade pip setuptools wheel && \
     python3 -m pip install --no-cache-dir cryptography && \
     python3 -m pip install --no-cache-dir -r requirements.txt && \
-    RUN rustup self uninstall -y || { \
-        echo "rustup uninstall failed, removing manually..."; \
-        rm -rf /root/.rustup /root/.cargo; \
-    } && \
-    apt-get remove --purge -y gcc python3-dev build-essential libssl-dev libffi-dev zlib1g-dev pkg-config && \
-    apt-get autoremove -y
+    python3 -m pip list
 
+RUN python3 -m pip install --no-cache-dir -r /home/requirements.txt
 VOLUME ["${configs}", "${extensions}", "${logs}"]
 
 CMD [ "/bin/sh", "/start-gateway.sh" ]

@@ -1,0 +1,118 @@
+2025-07-15 15:06:24.784 - |INFO| - [mqtt_connector.py] - mqtt_connector - load_handlers - 317 - Number of accepted mapping handlers: 1
+2025-07-15 15:06:24.784 - |INFO| - [mqtt_connector.py] - mqtt_connector - load_handlers - 317 - Number of accepted serverSideRpc handlers: 2
+2025-07-15 15:06:24.784 - |INFO| - [mqtt_connector.py] - mqtt_connector - load_handlers - 317 - Number of accepted connectRequests handlers: 1
+2025-07-15 15:06:24.785 - |ERROR| - [mqtt_connector.py] - mqtt_connector - __init__ - 212 -  -----------MQTT version == 5 --------. Starting up on version 5...5 GID_HJY_MQTTX@@@thingsboard0002
+2025-07-15 15:06:24.817 - |INFO| - [mqtt_connector.py] - mqtt_connector - _on_connect - 405 - mqttaliyun2 connected to mqtt-cn-ot93vfkv202.mqtt.aliyuncs.com:1883 - successfully.
+2025-07-15 15:06:24.817 - |INFO| - [mqtt_connector.py] - mqtt_connector - _on_connect - 483 - Connector "mqttaliyun2" subscribe to hjy-dev/t02/+/attr/
+2025-07-15 15:06:24.836 - |INFO| - [mqtt_connector.py] - mqtt_connector - _on_subscribe - 526 - (<paho.mqtt.properties.Properties object at 0x000001A0AC8E7070>,)
+2025-07-15 15:06:24.836 - |INFO| - [mqtt_connector.py] - mqtt_connector - _on_subscribe - 533 - "mqttaliyun2" subscription success to topic hjy-dev/t02/+/attr/, subscription message id = 1
+2025-07-15 15:06:24.851 - |INFO| - [mqtt_connector.py] - mqtt_connector - _on_subscribe - 526 - (<paho.mqtt.properties.Properties object at 0x000001A0AC8E7070>,)
+2025-07-15 15:06:24.852 - |INFO| - [mqtt_connector.py] - mqtt_connector - _on_subscribe - 533 - "mqttaliyun2" subscription success to topic hjy-dev/t02/+/info/, subscription message id = 2
+2025-07-15 15:06:26.989 - |INFO| - [mqtt_connector.py] - mqtt_connector - _process_on_message - 665 - Connecting device 84F841B70C56 of type t02
+2025-07-15 15:06:55.362 - |INFO| - [mqtt_connector.py] - mqtt_connector - _process_on_message - 665 - Connecting device 84F841B70C56 of type t02
+2025-07-15 15:07:24.423 - |INFO| - [mqtt_connector.py] - mqtt_connector - close - 386 - mqttaliyun2 has been stopped.
+2025-07-15 15:07:24.428 - |INFO| - [mqtt_connector.py] - mqtt_connector - load_handlers - 317 - Number of accepted mapping handlers: 1
+2025-07-15 15:07:24.429 - |INFO| - [mqtt_connector.py] - mqtt_connector - load_handlers - 317 - Number of accepted serverSideRpc handlers: 2
+2025-07-15 15:07:24.429 - |INFO| - [mqtt_connector.py] - mqtt_connector - load_handlers - 317 - Number of accepted connectRequests handlers: 1
+2025-07-15 15:07:24.429 - |ERROR| - [mqtt_connector.py] - mqtt_connector - __init__ - 212 -  -----------MQTT version == 5 --------. Starting up on version 5...5 GID_HJY_MQTTX@@@thingsboard0002
+2025-07-15 15:07:24.535 - |INFO| - [mqtt_connector.py] - mqtt_connector - _on_connect - 405 - mqttaliyun2 connected to mqtt-cn-ot93vfkv202.mqtt.aliyuncs.com:1883 - successfully.
+2025-07-15 15:07:24.535 - |INFO| - [mqtt_connector.py] - mqtt_connector - _on_connect - 483 - Connector "mqttaliyun2" subscribe to hjy-dev/t02/+/attr/
+2025-07-15 15:07:24.566 - |INFO| - [mqtt_connector.py] - mqtt_connector - _on_subscribe - 526 - (<paho.mqtt.properties.Properties object at 0x000001A0AC8E71D0>,)
+2025-07-15 15:07:24.567 - |INFO| - [mqtt_connector.py] - mqtt_connector - _on_subscribe - 533 - "mqttaliyun2" subscription success to topic hjy-dev/t02/+/attr/, subscription message id = 1
+2025-07-15 15:07:24.582 - |INFO| - [mqtt_connector.py] - mqtt_connector - _on_subscribe - 526 - (<paho.mqtt.properties.Properties object at 0x000001A0AC8E71D0>,)
+2025-07-15 15:07:24.583 - |INFO| - [mqtt_connector.py] - mqtt_connector - _on_subscribe - 533 - "mqttaliyun2" subscription success to topic hjy-dev/t02/+/info/, subscription message id = 2
+2025-07-15 15:07:26.639 - |INFO| - [mqtt_connector.py] - mqtt_connector - _process_on_message - 665 - Connecting device 84F841B70C56 of type t02
+2025-07-15 15:07:55.806 - |INFO| - [mqtt_connector.py] - mqtt_connector - _process_on_message - 665 - Connecting device 84F841B70C56 of type t02
+2025-07-15 15:08:26.068 - |INFO| - [mqtt_connector.py] - mqtt_connector - _process_on_message - 665 - Connecting device 84F841B70C56 of type t02
+2025-07-15 15:08:56.331 - |INFO| - [mqtt_connector.py] - mqtt_connector - _process_on_message - 665 - Connecting device 84F841B70C56 of type t02
+2025-07-15 15:09:26.596 - |INFO| - [mqtt_connector.py] - mqtt_connector - _process_on_message - 665 - Connecting device 84F841B70C56 of type t02
+2025-07-15 15:09:56.859 - |INFO| - [mqtt_connector.py] - mqtt_connector - _process_on_message - 665 - Connecting device 84F841B70C56 of type t02
+2025-07-15 15:10:26.916 - |INFO| - [mqtt_connector.py] - mqtt_connector - _process_on_message - 665 - Connecting device 84F841B70C56 of type t02
+2025-07-15 15:10:57.180 - |INFO| - [mqtt_connector.py] - mqtt_connector - _process_on_message - 665 - Connecting device 84F841B70C56 of type t02
+2025-07-15 15:11:27.439 - |INFO| - [mqtt_connector.py] - mqtt_connector - _process_on_message - 665 - Connecting device 84F841B70C56 of type t02
+2025-07-15 15:11:56.750 - |INFO| - [mqtt_connector.py] - mqtt_connector - close - 386 - mqttaliyun2 has been stopped.
+2025-07-15 15:11:57.993 - |INFO| - [mqtt_connector.py] - mqtt_connector - load_handlers - 317 - Number of accepted mapping handlers: 1
+2025-07-15 15:11:57.993 - |INFO| - [mqtt_connector.py] - mqtt_connector - load_handlers - 317 - Number of accepted serverSideRpc handlers: 2
+2025-07-15 15:11:57.993 - |INFO| - [mqtt_connector.py] - mqtt_connector - load_handlers - 317 - Number of accepted connectRequests handlers: 1
+2025-07-15 15:11:57.993 - |ERROR| - [mqtt_connector.py] - mqtt_connector - __init__ - 212 -  -----------MQTT version == 5 --------. Starting up on version 5...5 GID_HJY_MQTTX@@@thingsboard0002
+2025-07-15 15:11:58.102 - |INFO| - [mqtt_connector.py] - mqtt_connector - _on_connect - 405 - mqttaliyun2 connected to mqtt-cn-ot93vfkv202.mqtt.aliyuncs.com:1883 - successfully.
+2025-07-15 15:11:58.104 - |INFO| - [mqtt_connector.py] - mqtt_connector - _on_connect - 483 - Connector "mqttaliyun2" subscribe to hjy-dev/t02/+/attr/
+2025-07-15 15:11:58.120 - |INFO| - [mqtt_connector.py] - mqtt_connector - _on_subscribe - 526 - (<paho.mqtt.properties.Properties object at 0x000002C0D27F44B0>,)
+2025-07-15 15:11:58.121 - |INFO| - [mqtt_connector.py] - mqtt_connector - _on_subscribe - 533 - "mqttaliyun2" subscription success to topic hjy-dev/t02/+/attr/, subscription message id = 1
+2025-07-15 15:11:58.133 - |INFO| - [mqtt_connector.py] - mqtt_connector - _on_subscribe - 526 - (<paho.mqtt.properties.Properties object at 0x000002C0D27F44B0>,)
+2025-07-15 15:11:58.133 - |INFO| - [mqtt_connector.py] - mqtt_connector - _on_subscribe - 533 - "mqttaliyun2" subscription success to topic hjy-dev/t02/+/info/, subscription message id = 2
+2025-07-15 15:12:27.906 - |INFO| - [mqtt_connector.py] - mqtt_connector - _process_on_message - 665 - Connecting device 84F841B70C56 of type t02
+2025-07-15 15:12:58.173 - |INFO| - [mqtt_connector.py] - mqtt_connector - _process_on_message - 665 - Connecting device 84F841B70C56 of type t02
+2025-07-15 15:12:59.358 - |INFO| - [mqtt_connector.py] - mqtt_connector - close - 386 - mqttaliyun2 has been stopped.
+2025-07-15 15:12:59.361 - |INFO| - [mqtt_connector.py] - mqtt_connector - load_handlers - 317 - Number of accepted mapping handlers: 1
+2025-07-15 15:12:59.361 - |INFO| - [mqtt_connector.py] - mqtt_connector - load_handlers - 317 - Number of accepted serverSideRpc handlers: 2
+2025-07-15 15:12:59.362 - |INFO| - [mqtt_connector.py] - mqtt_connector - load_handlers - 317 - Number of accepted connectRequests handlers: 1
+2025-07-15 15:12:59.362 - |ERROR| - [mqtt_connector.py] - mqtt_connector - __init__ - 212 -  -----------MQTT version == 5 --------. Starting up on version 5...5 GID_HJY_MQTTX@@@thingsboard0002
+2025-07-15 15:12:59.467 - |INFO| - [mqtt_connector.py] - mqtt_connector - _on_connect - 405 - mqttaliyun2 connected to mqtt-cn-ot93vfkv202.mqtt.aliyuncs.com:1883 - successfully.
+2025-07-15 15:12:59.467 - |INFO| - [mqtt_connector.py] - mqtt_connector - _on_connect - 483 - Connector "mqttaliyun2" subscribe to hjy-dev/t02/+/attr/
+2025-07-15 15:12:59.484 - |INFO| - [mqtt_connector.py] - mqtt_connector - _on_subscribe - 526 - (<paho.mqtt.properties.Properties object at 0x000002C0D26273E0>,)
+2025-07-15 15:12:59.484 - |INFO| - [mqtt_connector.py] - mqtt_connector - _on_subscribe - 533 - "mqttaliyun2" subscription success to topic hjy-dev/t02/+/attr/, subscription message id = 1
+2025-07-15 15:12:59.499 - |INFO| - [mqtt_connector.py] - mqtt_connector - _on_subscribe - 526 - (<paho.mqtt.properties.Properties object at 0x000002C0D26273E0>,)
+2025-07-15 15:12:59.499 - |INFO| - [mqtt_connector.py] - mqtt_connector - _on_subscribe - 533 - "mqttaliyun2" subscription success to topic hjy-dev/t02/+/info/, subscription message id = 2
+2025-07-15 15:13:28.420 - |INFO| - [mqtt_connector.py] - mqtt_connector - _process_on_message - 665 - Connecting device 84F841B70C56 of type t02
+2025-07-15 15:13:58.534 - |INFO| - [mqtt_connector.py] - mqtt_connector - _process_on_message - 665 - Connecting device 84F841B70C56 of type t02
+2025-07-15 15:14:28.793 - |INFO| - [mqtt_connector.py] - mqtt_connector - _process_on_message - 665 - Connecting device 84F841B70C56 of type t02
+2025-07-15 15:14:59.052 - |INFO| - [mqtt_connector.py] - mqtt_connector - _process_on_message - 665 - Connecting device 84F841B70C56 of type t02
+2025-07-15 15:15:29.310 - |INFO| - [mqtt_connector.py] - mqtt_connector - _process_on_message - 665 - Connecting device 84F841B70C56 of type t02
+2025-07-15 15:15:30.424 - |INFO| - [mqtt_connector.py] - mqtt_connector - close - 386 - mqttaliyun2 has been stopped.
+2025-07-15 15:15:31.665 - |INFO| - [mqtt_connector.py] - mqtt_connector - load_handlers - 317 - Number of accepted mapping handlers: 1
+2025-07-15 15:15:31.665 - |INFO| - [mqtt_connector.py] - mqtt_connector - load_handlers - 317 - Number of accepted serverSideRpc handlers: 2
+2025-07-15 15:15:31.665 - |INFO| - [mqtt_connector.py] - mqtt_connector - load_handlers - 317 - Number of accepted connectRequests handlers: 1
+2025-07-15 15:15:31.665 - |ERROR| - [mqtt_connector.py] - mqtt_connector - __init__ - 212 -  -----------MQTT version == 5 --------. Starting up on version 5...5 GID_HJY_MQTTX@@@thingsboard0002
+2025-07-15 15:15:31.757 - |INFO| - [mqtt_connector.py] - mqtt_connector - _on_connect - 405 - mqttaliyun2 connected to mqtt-cn-ot93vfkv202.mqtt.aliyuncs.com:1883 - successfully.
+2025-07-15 15:15:31.759 - |INFO| - [mqtt_connector.py] - mqtt_connector - _on_connect - 483 - Connector "mqttaliyun2" subscribe to hjy-dev/t02/+/attr/
+2025-07-15 15:15:31.775 - |INFO| - [mqtt_connector.py] - mqtt_connector - _on_subscribe - 526 - (<paho.mqtt.properties.Properties object at 0x0000021145DA5710>,)
+2025-07-15 15:15:31.775 - |INFO| - [mqtt_connector.py] - mqtt_connector - _on_subscribe - 533 - "mqttaliyun2" subscription success to topic hjy-dev/t02/+/attr/, subscription message id = 1
+2025-07-15 15:15:31.811 - |INFO| - [mqtt_connector.py] - mqtt_connector - _on_subscribe - 526 - (<paho.mqtt.properties.Properties object at 0x0000021145DA5710>,)
+2025-07-15 15:15:31.812 - |INFO| - [mqtt_connector.py] - mqtt_connector - _on_subscribe - 533 - "mqttaliyun2" subscription success to topic hjy-dev/t02/+/info/, subscription message id = 2
+2025-07-15 15:15:59.567 - |INFO| - [mqtt_connector.py] - mqtt_connector - _process_on_message - 665 - Connecting device 84F841B70C56 of type t02
+2025-07-15 15:16:12.043 - |INFO| - [mqtt_connector.py] - mqtt_connector - _process_on_message - 665 - Connecting device abc123 of type t02
+2025-07-15 15:16:29.732 - |INFO| - [mqtt_connector.py] - mqtt_connector - _process_on_message - 665 - Connecting device 84F841B70C56 of type t02
+2025-07-15 15:16:59.990 - |INFO| - [mqtt_connector.py] - mqtt_connector - _process_on_message - 665 - Connecting device 84F841B70C56 of type t02
+2025-07-15 15:19:07.246 - |INFO| - [mqtt_connector.py] - mqtt_connector - _process_on_message - 665 - Connecting device abc123 of type t02
+2025-07-15 15:19:48.669 - |INFO| - [mqtt_connector.py] - mqtt_connector - close - 386 - mqttaliyun2 has been stopped.
+2025-07-15 15:19:49.800 - |INFO| - [mqtt_connector.py] - mqtt_connector - load_handlers - 317 - Number of accepted mapping handlers: 1
+2025-07-15 15:19:49.800 - |INFO| - [mqtt_connector.py] - mqtt_connector - load_handlers - 317 - Number of accepted serverSideRpc handlers: 2
+2025-07-15 15:19:49.800 - |INFO| - [mqtt_connector.py] - mqtt_connector - load_handlers - 317 - Number of accepted connectRequests handlers: 1
+2025-07-15 15:19:49.800 - |ERROR| - [mqtt_connector.py] - mqtt_connector - __init__ - 212 -  -----------MQTT version == 5 --------. Starting up on version 5...5 GID_HJY_MQTTX@@@thingsboard0002
+2025-07-15 15:19:49.901 - |INFO| - [mqtt_connector.py] - mqtt_connector - _on_connect - 405 - mqttaliyun2 connected to mqtt-cn-ot93vfkv202.mqtt.aliyuncs.com:1883 - successfully.
+2025-07-15 15:19:49.903 - |INFO| - [mqtt_connector.py] - mqtt_connector - _on_connect - 483 - Connector "mqttaliyun2" subscribe to hjy-dev/t02/+/attr/
+2025-07-15 15:19:49.933 - |INFO| - [mqtt_connector.py] - mqtt_connector - _on_subscribe - 526 - (<paho.mqtt.properties.Properties object at 0x0000028CD53C52B0>,)
+2025-07-15 15:19:49.933 - |INFO| - [mqtt_connector.py] - mqtt_connector - _on_subscribe - 533 - "mqttaliyun2" subscription success to topic hjy-dev/t02/+/attr/, subscription message id = 1
+2025-07-15 15:19:49.953 - |INFO| - [mqtt_connector.py] - mqtt_connector - _on_subscribe - 526 - (<paho.mqtt.properties.Properties object at 0x0000028CD53C52B0>,)
+2025-07-15 15:19:49.953 - |INFO| - [mqtt_connector.py] - mqtt_connector - _on_subscribe - 533 - "mqttaliyun2" subscription success to topic hjy-dev/t02/+/info/, subscription message id = 2
+2025-07-15 15:20:10.078 - |INFO| - [mqtt_connector.py] - mqtt_connector - _process_on_message - 665 - Connecting device abc123 of type t02
+2025-07-15 15:20:55.207 - |INFO| - [mqtt_connector.py] - mqtt_connector - _process_on_message - 665 - Connecting device 84F841B70C56 of type t02
+2025-07-15 15:21:27.321 - |INFO| - [mqtt_connector.py] - mqtt_connector - _process_on_message - 665 - Connecting device 84F841B70C56 of type t02
+2025-07-15 15:21:57.577 - |INFO| - [mqtt_connector.py] - mqtt_connector - _process_on_message - 665 - Connecting device 84F841B70C56 of type t02
+2025-07-15 15:22:27.839 - |INFO| - [mqtt_connector.py] - mqtt_connector - _process_on_message - 665 - Connecting device 84F841B70C56 of type t02
+2025-07-15 15:24:00.026 - |INFO| - [mqtt_connector.py] - mqtt_connector - _process_on_message - 665 - Connecting device 84F841B70C56 of type t02
+2025-07-15 15:24:32.291 - |INFO| - [mqtt_connector.py] - mqtt_connector - _process_on_message - 665 - Connecting device 84F841B70C56 of type t02
+2025-07-15 15:25:02.547 - |INFO| - [mqtt_connector.py] - mqtt_connector - _process_on_message - 665 - Connecting device 84F841B70C56 of type t02
+2025-07-15 15:25:30.507 - |INFO| - [mqtt_connector.py] - mqtt_connector - close - 386 - mqttaliyun2 has been stopped.
+2025-07-16 09:15:02.157 - |INFO| - [mqtt_connector.py] - mqtt_connector - load_handlers - 317 - Number of accepted mapping handlers: 1
+2025-07-16 09:15:02.158 - |INFO| - [mqtt_connector.py] - mqtt_connector - load_handlers - 317 - Number of accepted serverSideRpc handlers: 2
+2025-07-16 09:15:02.158 - |INFO| - [mqtt_connector.py] - mqtt_connector - load_handlers - 317 - Number of accepted connectRequests handlers: 1
+2025-07-16 09:15:02.158 - |ERROR| - [mqtt_connector.py] - mqtt_connector - __init__ - 212 -  -----------MQTT version == 5 --------. Starting up on version 5...5 GID_HJY_MQTTX@@@thingsboard0002
+2025-07-16 09:15:02.274 - |INFO| - [mqtt_connector.py] - mqtt_connector - _on_connect - 405 - mqttaliyun2 connected to mqtt-cn-ot93vfkv202.mqtt.aliyuncs.com:1883 - successfully.
+2025-07-16 09:15:02.276 - |INFO| - [mqtt_connector.py] - mqtt_connector - _on_connect - 483 - Connector "mqttaliyun2" subscribe to hjy-dev/t02/+/attr/
+2025-07-16 09:15:02.293 - |INFO| - [mqtt_connector.py] - mqtt_connector - _on_subscribe - 526 - (<paho.mqtt.properties.Properties object at 0x000002C276BEB230>,)
+2025-07-16 09:15:02.293 - |INFO| - [mqtt_connector.py] - mqtt_connector - _on_subscribe - 533 - "mqttaliyun2" subscription success to topic hjy-dev/t02/+/attr/, subscription message id = 1
+2025-07-16 09:15:03.873 - |INFO| - [mqtt_connector.py] - mqtt_connector - _on_subscribe - 526 - (<paho.mqtt.properties.Properties object at 0x000002C276C61E10>,)
+2025-07-16 09:15:03.874 - |INFO| - [mqtt_connector.py] - mqtt_connector - _on_subscribe - 533 - "mqttaliyun2" subscription success to topic hjy-dev/t02/+/info/, subscription message id = 2
+2025-07-16 09:15:04.434 - |INFO| - [mqtt_connector.py] - mqtt_connector - close - 386 - mqttaliyun2 has been stopped.
+2025-07-16 09:15:04.436 - |INFO| - [mqtt_connector.py] - mqtt_connector - load_handlers - 317 - Number of accepted mapping handlers: 1
+2025-07-16 09:15:04.437 - |INFO| - [mqtt_connector.py] - mqtt_connector - load_handlers - 317 - Number of accepted connectRequests handlers: 1
+2025-07-16 09:15:04.437 - |ERROR| - [mqtt_connector.py] - mqtt_connector - __init__ - 212 -  -----------MQTT version == 5 --------. Starting up on version 5...5 GID_HJY_MQTTX@@@thingsboard0002
+2025-07-16 09:15:04.461 - |INFO| - [mqtt_connector.py] - mqtt_connector - _on_connect - 405 - mqttaliyun2 connected to mqtt-cn-ot93vfkv202.mqtt.aliyuncs.com:1883 - successfully.
+2025-07-16 09:15:04.462 - |INFO| - [mqtt_connector.py] - mqtt_connector - _on_connect - 483 - Connector "mqttaliyun2" subscribe to hjy-dev/t02/+/attr/
+2025-07-16 09:15:04.500 - |INFO| - [mqtt_connector.py] - mqtt_connector - _on_subscribe - 526 - (<paho.mqtt.properties.Properties object at 0x000002C276AD7120>,)
+2025-07-16 09:15:04.500 - |INFO| - [mqtt_connector.py] - mqtt_connector - _on_subscribe - 533 - "mqttaliyun2" subscription success to topic hjy-dev/t02/+/attr/, subscription message id = 1
+2025-07-16 09:15:04.512 - |INFO| - [mqtt_connector.py] - mqtt_connector - _on_subscribe - 526 - (<paho.mqtt.properties.Properties object at 0x000002C276AD7120>,)
+2025-07-16 09:15:04.512 - |INFO| - [mqtt_connector.py] - mqtt_connector - _on_subscribe - 533 - "mqttaliyun2" subscription success to topic hjy-dev/t02/+/info/, subscription message id = 2
+2025-07-16 09:15:17.036 - |INFO| - [mqtt_connector.py] - mqtt_connector - close - 386 - mqttaliyun2 has been stopped.

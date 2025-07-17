@@ -1,0 +1,131 @@
+2025-07-03 14:08:21.840 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-03 14:08:21.841 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-03 14:08:21.843 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-03 14:09:21.232 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-03 14:09:21.265 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-03 14:09:21.265 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-03 14:09:21.266 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-03 14:12:21.633 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-03 14:12:21.711 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-03 14:12:21.711 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-03 14:12:21.712 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-03 14:13:04.105 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-03 14:13:05.545 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-03 14:13:05.545 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-03 14:13:05.546 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-03 14:13:53.268 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-03 14:13:54.567 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-03 14:13:54.568 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-03 14:13:54.568 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-03 14:14:55.968 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-03 14:14:55.991 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-03 14:14:55.991 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-03 14:14:55.991 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-03 14:15:56.111 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-03 14:15:56.168 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-03 14:15:56.169 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-03 14:15:56.169 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-03 14:16:56.310 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-03 14:16:56.368 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-03 14:16:56.368 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-03 14:16:56.368 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-03 14:18:06.609 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-03 14:18:07.936 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-03 14:18:07.937 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-03 14:18:07.938 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-03 14:31:10.292 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-03 14:31:10.397 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-03 14:31:10.398 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-03 14:31:10.398 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-09 09:16:10.248 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-09 09:16:10.249 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-09 09:16:10.250 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-11 10:47:33.838 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-11 10:47:37.498 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-11 10:47:37.499 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-11 10:47:37.500 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-11 10:53:21.038 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-15 11:00:04.322 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-15 11:00:04.324 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-15 11:00:04.324 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-15 11:01:17.827 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-15 11:15:41.889 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-15 11:15:41.890 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-15 11:15:41.891 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-15 11:29:27.805 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-15 11:29:30.028 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-15 11:29:30.028 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-15 11:29:30.029 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-15 11:30:59.093 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-15 11:31:01.135 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-15 11:31:01.136 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-15 11:31:01.137 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-15 11:32:28.217 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-15 11:32:30.172 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-15 11:32:30.173 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-15 11:32:30.173 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-15 11:48:59.189 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-15 11:49:01.005 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-15 11:49:01.005 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-15 11:49:01.006 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-15 11:50:02.427 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-15 11:50:02.456 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-15 11:50:02.456 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-15 11:50:02.457 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-15 13:37:47.075 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-15 13:41:16.089 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-15 13:41:16.090 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-15 13:41:16.091 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-15 13:41:17.991 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-15 13:50:56.329 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-15 13:50:56.330 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-15 13:50:56.331 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-15 13:51:55.720 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-15 13:51:55.756 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-15 13:51:55.756 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-15 13:51:55.757 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-15 13:52:38.626 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-15 13:52:40.027 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-15 13:52:40.028 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-15 13:52:40.028 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-15 13:52:41.336 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-15 13:52:41.360 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-15 13:52:41.361 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-15 13:52:41.361 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-15 13:54:10.275 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-15 13:54:11.708 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-15 13:54:11.708 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-15 13:54:11.709 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-15 13:59:36.250 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-15 14:16:16.645 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-15 14:16:16.647 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-15 14:16:16.648 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-15 14:17:18.055 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-15 14:17:18.081 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-15 14:17:18.082 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-15 14:17:18.083 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-15 14:18:18.128 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-15 14:18:18.519 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-15 14:18:18.519 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-15 14:18:18.520 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-15 14:19:18.657 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-15 14:19:18.693 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-15 14:19:18.704 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-15 14:19:18.704 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-15 14:24:19.151 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-15 14:24:19.175 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-15 14:24:19.176 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-15 14:24:19.177 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-15 14:25:19.863 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-17 11:23:40.358 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-17 11:23:40.359 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-17 11:23:40.360 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-17 11:24:12.919 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-17 11:25:26.294 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-17 11:25:26.295 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-17 11:25:26.295 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-17 11:26:11.068 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
+2025-07-17 11:27:09.634 - |INFO| - [rest_connector.py] - rest_connector - load_endpoints - 129 - Added endpoints: ['/my_devices', '/anon1', '/anon2', '/sharedAttributes']
+2025-07-17 11:27:09.635 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 194 - REST connector started at 127.0.0.1:5000
+2025-07-17 11:27:09.635 - |INFO| - [rest_connector.py] - rest_connector - __run_server - 202 - REST connector started at 127.0.0.1:5000
+2025-07-17 11:27:50.264 - |INFO| - [rest_connector.py] - rest_connector - close - 230 - REST connector stopped.
