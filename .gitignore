@@ -26,4 +26,6 @@ venv
 /tests/blackbox/connectors/modbus/_trial_temp/
 *.DS_Store
 *.log.*
+*.log
+log.*
 *.json
